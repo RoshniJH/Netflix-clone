@@ -6,6 +6,8 @@ function HomeScreen() {
         <div className="homeScreen">
             
             <Nav/>
+
+
             {/* banner */}
 
             {/* rows */}
