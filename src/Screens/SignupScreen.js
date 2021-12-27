@@ -1,4 +1,4 @@
-import { current } from '@reduxjs/toolkit';
+
 import React,{useRef} from 'react'
 import { auth } from "../firebase";
 import "./SignupScreen.css";
