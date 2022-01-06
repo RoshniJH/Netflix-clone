@@ -10,7 +10,8 @@
     padding: 20px;
 }
 .row__posters::-webkit-scrollbar {
-    display:none;
+    width: 0;
+    /* display:none; */
   }
 
 .row__poster{

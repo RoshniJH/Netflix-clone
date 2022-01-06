@@ -7,37 +7,36 @@
     margin-bottom: 15px;
 } */
 
-.planDetails__button {
-    padding : 8px 8px;
+.planDetail{
+    display: flex;
+    margin-bottom: 18px;
+   font-size: 15px;
+  justify-content: space-between;
+   margin-left: 20px;
+}
+
+.planDetail > button {
+    padding : 10px 10px !important;
     font-size: 1rem;
     margin-top: 5px;
-    width:10%;
+    width:20%;
     color: #fff;
     background-color: #e50914;
     font-weight: 600;
     border:none;
     cursor: pointer;
-   margin-left: 355px;
-   position: fixed; 
+
 }
 
-.planDetail{
-    display: flex;
-    margin-bottom: 18px;
-   font-size: 15px;
-   margin-left: 20px;
-}
-
-.planDetails__selected{
-    padding : 8px 8px ;
+.planDetails__selected {
+    
     font-size: 1rem;
     margin-top: 5px;
-    width:13%;
+    width:30% !important;
     color: #fff;
-    background-color: gray;
+    background-color:gray !important;
     font-weight: 600;
     border:none;
-    cursor: pointer;
-   margin-left: 320px;
-   position: fixed; 
+    cursor:none !important;
 }
+
