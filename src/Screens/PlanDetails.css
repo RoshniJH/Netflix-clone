@@ -1,0 +1,43 @@
+.planDetails__info{
+    color: #fff;
+    margin-top: 15px;
+}
+/* .planDetails__info > p {
+    font-size: 16px;
+    margin-bottom: 15px;
+} */
+
+.planDetails__button {
+    padding : 8px 8px;
+    font-size: 1rem;
+    margin-top: 5px;
+    width:10%;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+   margin-left: 355px;
+   position: fixed; 
+}
+
+.planDetail{
+    display: flex;
+    margin-bottom: 18px;
+   font-size: 15px;
+   margin-left: 20px;
+}
+
+.planDetails__selected{
+    padding : 8px 8px ;
+    font-size: 1rem;
+    margin-top: 5px;
+    width:13%;
+    color: #fff;
+    background-color: gray;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+   margin-left: 320px;
+   position: fixed; 
+}

@@ -4,9 +4,11 @@ import { useSelector } from 'react-redux'
 import {  selectUser } from '../features/userSlice'
 import Nav from '../Nav'
 import "./ProfileScreen.css"
+import PlanDetails from './PlanDetails';
 function ProfileScreen() {
     const user =  useSelector(selectUser);
     return (
+       
         <div className="profileScreen">
             <Nav />
         <div className="profileScreen__body">
@@ -18,7 +20,8 @@ function ProfileScreen() {
                 <div className="profileScreen__details">
                 <h2>{user.email}</h2>
                 <div className="profileScreen__plans">
-                <h3>Plans</h3>
+                <h3>Plans (Current Plan: premium)</h3>
+                <PlanDetails />
                 <button 
                 onClick = {()=> auth.signOut()}
                 className="profileScreen_signOut"
@@ -26,6 +29,7 @@ function ProfileScreen() {
                 </div>
                 </div>
             </div>
+           
         </div>
         </div>
     )
